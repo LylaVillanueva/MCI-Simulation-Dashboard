@@ -502,7 +502,7 @@ with display_col:
 # ============================================================
 # 8) DATA TABLE & EXPORT
 # ============================================================
-st.markdown('<div class="card"><strong>Filtered Data Preview</strong></div>', unsafe_allow_html=True)
+st.markdown('<div class="card"><strong>Filtered Data Preview</strong><p> limit to 25 event, download if you want to see more.</p></div>', unsafe_allow_html=True)
 
 cols_to_show = [
     "date", "location_name", "magnitude", "depth_km",
