@@ -264,7 +264,7 @@ with header_col:
           <div class="pulse"></div>
           <div><br><br>
             <div style="font-size:1.45rem; font-weight:800; color:#0f172a;">Mass Casualty Incident Simulation</div>
-            <div style="color:#64748b; font-size:0.9rem;">Earthquake Response Dashboard • NOAA Data Intelligence</div>
+            <div style="color:#64748b; font-size:0.9rem;">Dashboard estimating casualties based on earthquake magnitude.</div>
           </div>
         </div>
         """,
@@ -547,11 +547,11 @@ st.markdown(
         <div>
           <div style="font-weight:900;">Data Source</div>
           <div style="color:#64748b; font-size:0.9rem; margin-top:6px;">
-            Kaggle — Major Earthquakes (NOAA) by shekpaul<br/>
+            Kaggle — Major Earthquakes (NOAA) by shekpaul
             <a href="https://www.kaggle.com/datasets/shekpaul/major-earthquakes-noaa" target="_blank">
                 https://www.kaggle.com/datasets/shekpaul/major-earthquakes-noaa
-            </a><br/><br/>
-            <b>Original Provider</b><br/>
+            </a><br/>
+            <b>Original Provider</br>
             NOAA NCEI — Global Significant Earthquake Database (DOI: 10.7289/V5TD9V7K)
           </div>
         </div>
