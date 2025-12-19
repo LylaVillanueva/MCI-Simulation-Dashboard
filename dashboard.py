@@ -22,7 +22,7 @@ st.set_page_config(
 
 
 # ============================================================
-# 2) REFINED UI STYLES (IMPROVED UI/UX — SAME COLOR PALETTE)
+# 2)  UI STYLES 
 # ============================================================
 st.markdown(
     """
