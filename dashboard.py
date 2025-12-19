@@ -262,7 +262,7 @@ with header_col:
         """
         <div class="title-container">
           <div class="pulse"></div>
-          <div>
+          <div><br><br>
             <div style="font-size:1.45rem; font-weight:800; color:#0f172a;">Mass Casualty Incident Simulation</div>
             <div style="color:#64748b; font-size:0.9rem;">Earthquake Response Dashboard • NOAA Data Intelligence</div>
           </div>
@@ -345,7 +345,7 @@ if has_tsunami:
         f = f[f["tsunami_flag"] == 1]
 
 # ============================================================
-# 7) MAIN DISPLAY AREA (Always render; if empty -> show zeros)
+# 7) MAIN DISPLAY AREA)
 # ============================================================
 with display_col:
     if f.empty:
