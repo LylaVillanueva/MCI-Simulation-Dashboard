@@ -1,19 +1,3 @@
-# MCI Earthquake Casualty Dashboard (Streamlit)
+Earthquakes differ in magnitude, and stronger earthquakes generally cause higher numbers of injuries and deaths. However, historical earthquake data is often presented in raw tables, which makes it difficult to quickly understand how earthquake magnitude relates to mass casualty incidents.
 
-## Run locally
-1) Install dependencies:
-   pip install -r requirements.txt
-
-2) Clean the dataset:
-   python scripts/clean_noaa.py
-
-3) Run the website/dashboard:
-   streamlit run app.py
-
-## Deploy on Streamlit Cloud
-1) Push this repo to GitHub
-2) Go to https://share.streamlit.io/
-3) Select your repo and set:
-   - Main file: dashboard.py
-4) Deploy and copy the public URL
-# MCI-Simulation-Dashboard
+This project aims to create an interactive dashboard that simulates mass casualty incidents by estimating and visualizing casualties based on earthquake magnitude. Using historical earthquake records from the NOAA database, the dashboard allows users to filter earthquakes by magnitude, year range, severity level, and tsunami occurrence. The visualizations help users analyze patterns in casualties and understand how earthquake magnitude affects the scale of human impact, which can support disaster awareness and basic emergency planning.
