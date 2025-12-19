@@ -14,6 +14,6 @@
 1) Push this repo to GitHub
 2) Go to https://share.streamlit.io/
 3) Select your repo and set:
-   - Main file: app.py
+   - Main file: dashboard.py
 4) Deploy and copy the public URL
 # MCI-Simulation-Dashboard
